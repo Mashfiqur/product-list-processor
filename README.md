@@ -29,7 +29,7 @@ docker network create ecdltd-net
 ```
 ### Build the app
 ```sh
-docker-compose up
+docker-compose up -d
 ```
 ### Need to enter inside the container to run composer install and some other commands
 ```sh
