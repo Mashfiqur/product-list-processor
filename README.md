@@ -67,3 +67,5 @@ For TSV file:
 ```sh
 php artisan parse:file --file=products_tab_separated.tsv --unique-combinations=uniq_combination_tsv.csv
 ```
+
+You can check the unique combinations file from storage/app/ directory named as your given name
