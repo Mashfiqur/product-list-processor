@@ -2,17 +2,17 @@
 ### Clone Repository
 Through Https
 ```sh
-git clone 
+git clone https://github.com/Mashfiqur/product-list-processor.git
 ```
 Through SSH
 ```sh
-git clone 
+git clone git@github.com:Mashfiqur/product-list-processor.git
 ```
 
 
 ### Change to the project directory
 ```sh
-cd /
+cd /product-list-processor
 ```
 
 ### Copy docker-compose file
