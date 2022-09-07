@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+    app:
+        container_name: file-parser-app
+        image: mashfiqdev/laravel-php8-nginx-redis6-image:1.0
+        restart: unless-stopped
+        working_dir: /var/www/html
+        volumes:
+            - ./:/var/www/html
+        ports: 
+            - "8891:80"
+        networks: 
+            - ecdltd-net
+
+networks: 
+    ecdltd-net:
+        external: true
